@@ -54,6 +54,12 @@
     "nprogress": "^0.2.0",
     "prevent-parent-scroll": "0.0.6",
     "urijs": "^1.18.10",
-    "webpack2-polyfill-plugin": "0.0.2"
-  }
+    "webpack2-polyfill-plugin": "0.0.2",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
