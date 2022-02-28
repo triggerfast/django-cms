@@ -20,3 +20,4 @@ pyenchant
 djangocms-helper
 mock>=2.0.0
 django-formtools
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
