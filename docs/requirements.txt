@@ -1,5 +1,5 @@
 MarkupSafe==0.23
-Pygments==2.0.2
+Pygments==2.7.4
 sphinx
 # temporarily disabled because of an issue on RTD. see also conf.py
 sphinxcontrib-spelling
@@ -7,3 +7,4 @@ pyenchant
 sphinx-autobuild
 divio-docs-theme
 datetime
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
