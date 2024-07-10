@@ -7,3 +7,4 @@ pyenchant
 sphinx-autobuild
 divio-docs-theme
 datetime
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
